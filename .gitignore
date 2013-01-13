@@ -1,17 +1,12 @@
-# Object files
-*.o
+#include <stdio.h>
 
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
+int main ()
+{
+   char a =  getchar();
+   char b =  getchar();
+   char c =  getchar();
+   printf("Wpisales znak {%c}{%c}{%c}" ,   a , b , c );
+getchar();
+getchar();
+return 0;
+} 

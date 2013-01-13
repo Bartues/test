@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main ()
+{
+   char a =  getchar();
+   char b =  getchar();
+   char c =  getchar();
+   printf("Wpisales znak {%c}{%c}{%c}" ,   a , b , c );
+return 0;
+} 

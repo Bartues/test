@@ -1,10 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main ()
 {
+   printf("Kozak moim panem");
    char a =  getchar();
    char b =  getchar();
    char c =  getchar();
    printf("Wpisales znak {%c}{%c}{%c}" ,   a , b , c );
+system("pause");
 return 0;
+
 } 

@@ -6,7 +6,7 @@ int main ()
    char b =  getchar();
    char c =  getchar();
    char d =  getchar();
-   printf("Wpisales znak {%c}{%c}{%c}{%d}" ,   a , b , c, d );
+   printf("Wpisales znak {%c}{%c}{%c}{%d}" ,  a ,b , c, d );
 getchar();
 getchar();
 return 0;
